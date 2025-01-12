@@ -9,5 +9,5 @@
     width: 30px;
     height: 30px;
     background: rgb(0, 83, 128);
-    cursor: crosshair;
+    cursor: url('../img/sniper1.png')14 14 ,  auto;
 }
