@@ -1,3 +1,10 @@
+.bloc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
 .game{
     width: 300px;
     height: 300px;
@@ -5,9 +12,48 @@
     cursor: crosshair;
 }
 
-.ennemi{
+.pnj{
+    position: relative;
     width: 30px;
     height: 30px;
     background: rgb(0, 83, 128);
     cursor: url('../img/sniper1.png')14 14 ,  auto;
+    top: 0%;
+    left: 45%
+}
+
+.player{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    background: rgb(128, 0, 0);
+    cursor: not-allowed;
+    top: 80%;
+    left: 45%;
+    rotate: 0deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.laser{
+    width: 5px;
+    height: 15px;
+    background: yellow;
+    animation: ;
+}
+
+@keyframes shut{
+    0%{
+        transform: translateY(0px);
+    }100%{
+        transform: translateY(-300px);
+    }
+}
+
+.laserfin{
+    width: 5px;
+    height: 15px;
+    background: yellow;
+    animation: shut linear 0.3;
 }
