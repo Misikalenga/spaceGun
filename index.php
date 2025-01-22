@@ -11,7 +11,9 @@
     <body>
         <div class="bloc">
             <div class="game">
-                <div class="pnj"></div>
+                <div class="pnj">
+                    <div class="laserE"></div>
+                </div>
                 <div class="player">
                     <div class="laser"></div>
                 </div>
